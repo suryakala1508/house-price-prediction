@@ -1,0 +1,35 @@
+# 🏠 House Price Prediction - Machine Learning Project
+
+This project uses regression techniques to predict house prices based on various features like area, quality, and garage size.
+
+## 📊 Dataset
+
+- [Kaggle: House Prices - Advanced Regression Techniques](https://www.kaggle.com/c/house-prices-advanced-regression-techniques)
+
+## ⚙️ Tools Used
+
+- Python (Jupyter Notebook)
+- Pandas, NumPy
+- Matplotlib, Seaborn
+- Scikit-Learn
+- Streamlit (for app deployment)
+
+## 🧠 Model
+
+Trained a Linear Regression model on features:
+
+- `OverallQual`
+- `GrLivArea`
+- `GarageCars`
+- `TotalBsmtSF`
+
+Achieved an **R² score** of ~0.80 on test data.
+
+## 🚀 App Preview
+
+![App Screenshot](screenshot.png)  <!-- Optional -->
+
+Run locally:
+
+```bash
+streamlit run app.py
